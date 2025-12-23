@@ -17,8 +17,4 @@ buildscript {
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
     }
 }
-plugins {
-    alias(libs.plugins.kotlin.compose) apply false
-}
-
 apply plugin: "com.facebook.react.rootproject"
